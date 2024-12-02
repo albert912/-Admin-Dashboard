@@ -1,0 +1,739 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+ 
+
+ .container {
+    height: 100%;
+  box-sizing: border-box;
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 5fr ;
+    grid-template-rows: 1fr 4fr;
+}
+
+
+.header {
+grid-column: 2/3;
+grid-row: 1/2;
+background-color: white;
+display: grid;
+height: 200px;
+}
+
+form {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+
+}
+
+.searchinput {
+display: grid;
+grid-row:1/2 ;
+grid-column:1/2;
+justify-content: center;
+position: relative;
+}
+
+#search {
+border-radius: 10px;
+width: 500px;
+height: 25px;
+background-color: rgb(238, 240, 243, 1);
+border: none;
+}
+
+.first {
+  position: absolute;
+  top: 30px ;
+  left: 110px;
+}
+
+
+.topright {
+  position: relative;
+}
+
+.second {
+  position: absolute;
+  top: 25px ;
+  right: 500px;
+
+
+}
+
+.three {
+  position: absolute;
+  top: 25px ;
+  right: 450px;
+
+
+}
+
+.pone {
+  position: absolute;
+  top: 10px ;
+  right: 250px;
+  font-weight: bold;
+
+}
+
+.bottomleft {
+  position: relative;
+}
+
+.four {
+  position: absolute;
+  top: 16px ;
+  left: 135px;
+  
+
+}
+
+.ptwo {
+  position: absolute;
+  top: 2px ;
+  left: 170px;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+
+.pthree {
+  position: absolute;
+  top: 16px ;
+  left: 170px;
+  font-weight: bold;
+}
+
+
+.buttondiv {
+grid-column: 2/3;
+grid-row: 2/3;
+grid-auto-flow: column;
+display: grid;
+justify-content: center;
+}
+
+button {
+  background-color: #0088CC;
+  width: 100px ;
+  height: 40px ;
+  border: none;
+  margin-right: 40px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.sidebar {
+grid-column: 1/2;
+grid-row: 1/3;
+background-color: #0088CC;
+display: grid;
+grid-template-rows: 1fr;
+}
+
+
+
+.sidebar p {
+  color: white;
+  padding-left: 41px;
+
+}
+
+
+.sidebar .firstul {
+color: white;
+list-style-type: none;
+left: 50px;
+position: relative;
+}
+
+.sidebar .secondul {
+  padding-top: 30px;
+  color: white;
+  list-style-type: none;
+  left: 50px;
+  position: relative;
+  }
+
+  .sidebar li {
+   margin-top: 23px;
+   font-weight: bold;
+  }
+
+
+.dhimage {
+  position: relative;
+width: 40px;
+height: 40px;
+top: -33px;
+left: 40px;
+}
+
+.dh {
+position: relative;
+top: 8px;
+left:50px;
+font-weight: bold;
+
+}
+
+.iconimg {
+  position: relative;
+width: 35px;
+height: 30px;
+top: -25px;
+left: -40px;
+fill: white;
+}
+
+
+
+
+.main {
+grid-column: 2/3;
+grid-row: 2/3;
+background-color: rgb(238, 240, 243, 1);
+display: grid;
+grid-template-columns: 1.5fr 1.5fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+gap: 30px;
+padding: 80px 40px;
+position: relative;
+}
+
+.supercool{
+  background-color: white;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  border-radius: 10px;
+  position: relative;
+  border-left: 10px solid orange;
+}
+
+.scool {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+  left: 20px;
+  top: 10px;
+}
+
+.cooldum {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  right: 250px;
+  color: gray;
+}
+
+.coolimg{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 150px ;
+  position: absolute;
+}
+
+
+.coolimgtwo{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 100px ;
+  position: absolute;
+}
+
+
+.coolimgthree{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 50px;
+  position: absolute;
+}
+
+
+
+.impossible{
+  background-color: white;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  border-radius: 10px;
+  position: relative;
+  border-left: 10px solid orange;
+}
+
+.imp {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+  left: 20px;
+  top: 10px;
+}
+
+.impdum {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  right: 250px;
+  color: gray;
+
+}
+
+.impimg{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 50px;
+  position: absolute;
+}
+
+.impimgtwo{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 100px;
+  position: absolute;
+}
+
+.impimgthree{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 150px;
+  position: absolute;
+}
+
+
+.adblocker{
+  background-color: white;
+  grid-row: 3/4;
+  grid-column: 1/2;
+  border-radius: 10px;
+  position: relative;
+  border-left: 10px solid orange;
+}
+
+.ad {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+  left: 20px;
+  top: 10px;
+
+}
+
+.addum {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  right: 275px;
+  color: gray;
+
+}
+
+.adimg{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 150px;
+  position: absolute;
+}
+
+.adimgtwo{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 100px;
+  position: absolute;
+}
+
+.adimgthree{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 50px;
+  position: absolute;
+}
+
+
+
+.lesscool{
+  background-color: white;
+  grid-row: 1/2 ;
+  grid-column: 2/3;
+  border-radius: 10px;
+  position: relative;
+  border-left: 10px solid orange;
+}
+
+.lcool{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+  left: 20px;
+  top: 10px;
+
+}
+
+.lcooldum {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  right: 230px;
+  color: gray;
+
+}
+
+.lcoolimg{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 150px;
+  position: absolute;
+
+}
+
+.lcoolimgtwo{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 100px;
+  position: absolute;
+
+}
+
+.lcoolimgthree{
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 50px;
+  position: absolute;
+}
+
+
+
+.easypeasyapp{
+  background-color: white;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  border-radius: 10px;
+  position: relative;
+  border-left: 10px solid orange;
+}
+
+
+.easy{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+  left: 20px;
+  top: 10px;
+}
+
+.easydum{
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  right: 230px;
+  color: gray;
+}
+
+.easyimage {
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 150px;
+  position: absolute;
+
+}
+
+.easyimagetwo {
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 100px;
+  position: absolute;
+
+}
+
+.easyimagethree {
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 50px;
+  position: absolute;
+
+}
+
+.moneymoker{
+  background-color: white;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  border-radius: 10px;
+  position: relative;
+  border-left: 10px solid orange;
+}
+
+.money {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bolder;
+  left: 20px;
+  top: 10px;
+}
+
+.moneydum {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  right: 230px;
+  color: gray;
+}
+
+.moneyimg {
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 150px;
+  position: absolute;
+
+
+}
+
+.moneyimgtwo {
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 100px;
+  position: absolute;
+
+}
+
+.moneyimgthree {
+  height: 20px;
+  width: 20px;
+  bottom: 10px;
+  right: 50px;
+  position: absolute;
+
+}
+
+.thirdrow {
+display: grid;
+grid-row: 1/4 ;
+grid-column: 3/4;
+gap: 70px;
+grid-template-columns: 1fr ;
+grid-template-rows: 1fr 1fr ;
+}
+
+.announcement{
+  background-color: white;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  border-radius: 10px;
+  display: grid;
+  /*grid: 1fr 1fr 1fr / auto;*/
+  grid: repeat(3, 1fr) / auto;
+  padding: 20px;
+
+}
+
+
+.agione {
+
+border-bottom: 2px solid rgba(179, 182, 185, 0.6);
+}
+
+.agitwo {
+ 
+border-bottom: 2px solid rgba(179, 182, 185, 0.6);
+}
+
+.agithree {
+ 
+}
+
+.site {
+  font-weight: bold;
+}
+
+.sitetext {
+width: 250px;
+color: gray;
+}
+
+.comm {
+  font-weight: bold;
+}
+
+.commtext {
+  width: 250px;
+  color: gray;
+}
+
+.upd {
+
+  font-weight: bold;
+
+}
+
+.updtext {
+  width: 250px;
+  color: gray;
+}
+
+
+.trending {
+  background-color: white;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  padding: 20px;
+}
+
+.trendone {
+ position: relative;
+}
+
+.trendimgone {
+position: absolute;
+  height: 40px;
+  width: 30px;
+  top: 35px;
+  left: -10px;
+
+}
+
+.tegan {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.wtext {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: gray;
+
+}
+
+.trendtwo {
+  position: relative;
+}
+
+.trendimgtwo {
+  position: absolute;
+  height: 40px;
+  width: 30px;
+  top: 35px;
+  left: -10px;
+}
+
+.morgan {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.stext {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: gray;
+}
+
+.trendthree {
+  position: relative;
+}
+
+.trendimgthree {
+  position: absolute;
+  height: 40px;
+  width: 30px;
+  top: 35px;
+  left: -10px;
+}
+
+.kendall {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+
+.ltext {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: gray;
+
+
+}
+
+.trendfour {
+  position: relative;
+}
+
+.trendimgfour {
+  position: absolute;
+  height: 40px;
+  width: 30px;
+  top: 35px;
+  left: -10px;
+}
+
+.alex {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+}
+
+.notext {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: gray;
+
+
+}
+
+
+.pro {
+font-size: 20px;
+position: absolute;
+top: 20px;
+left: 45px;
+font-weight: bold;
+}
+
+.ann {
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  right: 270px;
+  font-weight: bold;
+}
+
+.trend {
+  font-size: 20px;
+  position: absolute;
+  bottom: 530px;
+  right: 320px;
+  font-weight: bold;
+
+}
+
